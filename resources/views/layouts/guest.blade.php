@@ -15,6 +15,8 @@
 
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
+
+        @stack('lightbox')
     </head>
     <body>
         <div class="font-sans text-gray-900 antialiased">
